@@ -20,3 +20,4 @@
 ~$ cd Coordinates-Location
 ~/Coordinates-Location$ mv EastCoordinate.txt East.txt
 ~/Coordinates-Location$ mv /home/z0d/North /home/z0d/Coordinates-Location
+~/Coordinates-Location$ gedit Location-Coordinate.txt
