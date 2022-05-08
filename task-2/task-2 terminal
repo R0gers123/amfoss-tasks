@@ -10,3 +10,6 @@
 ~/Coordinates-Location$ mv NorthCoordinate.txt North.txt
 ~/Coordinates-Location$ mkdir East
 ~/Coordinates-Location$ cd East
+~/Coordinates-Location/East$ gedit EDegree.txt
+~/Coordinates-Location/East$ gedit EMinutes.txt
+~/Coordinates-Location/East$ gedit ESeconds.txt
