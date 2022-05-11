@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Crust</title>
+    <link rel="shortcut icon" href="file:///home/z0d/tasks/task-8/page-1/images/salami-pizza.png" type="image/x-icon" />
+    <link id="demo" rel="stylesheet" href="file:///home/z0d/tasks/task-8/page-2/css/style.css" />
+    <title>JS</title>
+</head>
+
+<body>
+    <!--On click of Button-1 store something in localStorage // completed-->
+    <button class="button" onclick="local()">store</button>
+
+    <!--On click of Button-2 show a popup with current time // completed-->
+    <button class="button" onclick="time()">time</button>
+
+    <!--On click of Button-3 change the background-->
+    <button class="button" onclick="colour('#e699ff');">Colour</button>
+
+    <!--On click of Button-4 refresh the page // completed-->
+    <button class="button" onClick="window.location.reload();">refresh</button>
+
+    <!--On click of Button-5 open a new window // completed-->
+    <button class="button" onClick="window.open('file:///home/z0d/tasks/task-8/page-2/index.html?');">New
+        Window</button>
+
+    <!--On click of Button-6 spam the console with 'I did it'// completed-->
+    <button class="button" onclick="spam()">Spam</button>
+
+    <form action="file:///home/z0d/tasks/task-8/page-3/chart.html">
+        <!--set form action // completed-->
+        <button class="button">Next</button>
+    </form>
+    <script>
+        function local() {
+            var text = { 'Some random sentence to store in local storage' : 0 };
+
+            // Put the object into storage
+            localStorage.setItem('text', JSON.stringify(text));
+
+            // Retrieve the object from storage
+            var retrieve = localStorage.getItem('text');
+
+            console.log('retrieve: ', JSON.parse(retrieve));
+        }
+        function colour(color) {
+            document.body.style.background = color;
+        }
+
+        function time() {
+            var my_time = new Date();
+            alert(my_time);//popup window
+        }
+
+        function spam() {
+            console.log('I did it');//display in console
+        }
+    </script>
+</body>
+
+</html>
