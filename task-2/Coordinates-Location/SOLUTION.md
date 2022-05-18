@@ -16,7 +16,7 @@
 ~/Coordinates-Location/East$ gedit ESeconds.txt<br/>
 ~/Coordinates-Location/East$ gedit EastCoordinate.txt<br/>
 ~/Coordinates-Location/East$ cp EastCoordinate.txt /home/z0d/Coordinates-Location<br/>
-~/Coordinates-Location/East$ cd ~<br/>
+~/Coordinates-Location/East$ cd <br/>
 ~$ cd Coordinates-Location<br/>
 ~/Coordinates-Location$ mv EastCoordinate.txt East.txt<br/>
 ~/Coordinates-Location$ mv /home/z0d/North /home/z0d/Coordinates-Location<br/>
