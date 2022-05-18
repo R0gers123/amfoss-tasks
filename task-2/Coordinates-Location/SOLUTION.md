@@ -1,4 +1,4 @@
-~$ mkdir Coordinates-Location
+~$ mkdir Coordinates-Location<br/>
 ~$ mkdir North
 ~$ cd North
 ~/North$ gedit NDegree.txt
